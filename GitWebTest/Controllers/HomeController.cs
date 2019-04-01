@@ -11,6 +11,7 @@ namespace GitWebTest.Controllers
         public ActionResult Index()
         {
             Console.WriteLine("Garbage");
+            Console.WriteLine("Foo");
             return View();
         }
 
